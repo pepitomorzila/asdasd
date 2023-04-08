@@ -4,73 +4,73 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-    <title>Textarea element</title>
+    <title>Nacho's burguer</title>
   </head>
   <body>
     <section id="overlay">
       <img src="https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg" alt="Davie's Burgers Logo" id="logo">
       <hr>
       <form action="submission.html" method="POST">
-        <h1>Create a burger!</h1>
+        <h1>Crea una hamburguesa</h1>
 					<section class="protein">
-          <label for="patty">What type of protein would you like?</label>
+          <label for="patty">¿Qué tipo de proteina desea en su carne?</label>
     			<input type="text" name="patty" id="patty">
         </section>
         <hr>
         <section class="patties">
-          <label for="amount">How many patties would you like?</label>
+          <label for="amount">¿Cuántas medallones quiere?</label>
           <input type="number" name="amount" id="amount">
         </section>
         <hr>
         <section class="cooked">
-          <label for="doneness">How do you want your patty cooked</label>
+          <label for="doneness">¿Qué punto de la hamburguesa desea?</label>
           <br>
-          <span>Rare</span>
+          <span>Crudo</span>
           <input type="range" name="doneness" id="doneness" value="3" min="1" max="5">
-          <span>Well-Done</span>
+          <span>Bien cocido</span>
         </section>
         <hr>
         <section class="toppings">
-          <span>What toppings would you like?</span>
+          <span>¿Qué toppings quiere en su hamburguesa?</span>
           <br>
           <input type="checkbox" name="topping" id="lettuce" value="lettuce">
-          <label for="lettuce">Lettuce</label>
+          <label for="lettuce">Lechuga</label>
           <input type="checkbox" name="topping" id="tomato" value="tomato">
-          <label for="tomato">Tomato</label>
+          <label for="tomato">Tomate</label>
           <input type="checkbox" name="topping" id="onion" value="onion">
-          <label for="onion">Onion</label>
+          <label for="onion">Cebolla</label>
         </section>
         <hr>
         <section class="cheesy">
-          <span>Would you like to add cheese?</span>
+          <span>¿Le gustaría añadir queso?</span>
           <br>
           <input type="radio" name="cheese" id="yes" value="yes">
-          <label for="yes">Yes</label>
+          <label for="yes">Si</label>
           <input type="radio" name="cheese" id="no" value="yes">
           <label for="no">No</label>
         </section>
         <hr>
         <section class="bun-type">
-          <label for="bun">What type of bun would you like?</label>
+          <label for="bun">¿Qué tipo de pan quiere?</label>
           <select name="bun" id="bun">
-            <option value="sesame">Sesame</option>
-            <option value="potatoe">Potato</option>
-            <option value="pretzel">Pretzel</option>
+            <option value="sesame">Sésamo</option>
+            <option value="potatoe">Papa</option>
+            <option value="pretzel">Magoia</option>
           </select>
         </section>
         <hr>
         <section class="sauce-selection">
-          <label for="sauce">What type of sauce would you like?</label>
+          <label for="sauce">¿Qué tipo de salsa quiere?</label>
           <input list="sauces" id="sauce" name="sauce">
           <datalist id="sauces">
             <option value="ketchup"></option>
             <option value="mayo"></option>
-            <option value="mustard"></option>
+            <option value="mostaza"></option>
           </datalist>
         </section>
         <hr>
         <section class="extra-info">
-          <label for="extra">Anything else you want to add?</label>
+          <label for="extra">¿Algo más que desee añadir?</label>
           <br>
           <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
         </section>
@@ -78,7 +78,7 @@
 
         <section class="submission">
           <!--Add your code below-->
-          <input type="submit" value="Submit">
+          <input type="submit" value="Nacho pelotudo">
         </section>
         
       </form>
