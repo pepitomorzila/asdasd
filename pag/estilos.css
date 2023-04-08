@@ -1,5 +1,7 @@
 body {
     font-family: Arial, sans-serif;
+    
+      
   }
   
   header {
@@ -7,7 +9,18 @@ body {
     color: #020202;
     padding: 10px;
   }
-  
+  #antezana{
+    text-align: center;
+    color: #fff;
+
+  }
+  .stock {
+    border: 2px solid black;
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+  }
+
   nav ul {
     margin: 0;
     padding: 0;
@@ -32,20 +45,25 @@ body {
   main {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: left;
-
+    padding: 100px;
+    border: 2px solid black;
+    width: 55000px;
+    height: 300px;
   }
 
-  .derecha{
+
+  #right{
     background-color: #333;
     color: #fff;
     padding: 10px;
     text-align: right;
   }
+
+  #left{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+  }
+
+
