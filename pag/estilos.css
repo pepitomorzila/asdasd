@@ -3,8 +3,8 @@ body {
   }
   
   header {
-    background-color: rgb(241, 2, 74);
-    color: #db2929;
+    background-color: rgb(51, 43, 43);
+    color: #020202;
     padding: 10px;
   }
   
@@ -39,6 +39,13 @@ body {
     background-color: #333;
     color: #fff;
     padding: 10px;
-    text-align: center;
+    text-align: left;
+
   }
-  
+
+  .derecha{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+  }
