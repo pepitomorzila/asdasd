@@ -1,11 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    
-      
+    margin: auto;
+    background-color: #ffffff;
   }
   
   header {
-    background-color: rgb(51, 43, 43);
+    background-color: rgb(12, 12, 12);
     color: #020202;
     padding: 10px;
   }
@@ -15,10 +15,15 @@ body {
 
   }
   .stock {
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     padding: 10px;
-    width: 300px;
+    width: 250px;
     height: 200px;
+    margin: 2.7%;
+  }
+  .navigation{
+    width: 35px;
+    height: 35px;
   }
 
   nav ul {
@@ -43,18 +48,18 @@ body {
   }
   
   main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 100px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px;
     border: 2px solid black;
     width: 1000px;
-    height: 350px;
+    height: 1000px;
+    background-color: #e8edee;
   }
-
 
   #right{
     background-color: #333;
-    color: #fff;
+   color: #fff;
     padding: 10px;
     text-align: right;
   }
