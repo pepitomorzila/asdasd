@@ -2,12 +2,17 @@ body {
     font-family: Arial, sans-serif;
     margin: auto;
     background-color: #ffffff;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/380/523/681/design-neon-abstract-light-design-hd-wallpaper-preview.jpg);
+    background-size: cover;
+    padding: 1%;
   }
+
   
   header {
     background-color: rgb(12, 12, 12);
     color: #020202;
     padding: 10px;
+    
   }
   #antezana{
     text-align: center;
@@ -20,6 +25,9 @@ body {
     width: 250px;
     height: 200px;
     margin: 2.7%;
+    background-image: url(https://images7.alphacoders.com/107/thumbbig-1075059.webp);
+    background-size: cover;
+    padding: 1%;
   }
   .navigation{
     width: 35px;
@@ -43,7 +51,7 @@ body {
   }
   
   nav a {
-    color: #fff;
+    color: #f4ebeb;
     text-decoration: none;
   }
   
@@ -54,7 +62,11 @@ body {
     border: 2px solid black;
     width: 1000px;
     height: 1000px;
-    background-color: #e8edee;
+    background-color: #080808;
+    /*
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/409/743/607/circle-web-design-artwork-digital-art-wallpaper-preview.jpg);
+    background-size: cover;
+    padding: 1%;*/
   }
 
   #right{
