@@ -1,114 +1,55 @@
-[22:11, 7/4/2023] Joaquin Martinez: <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-    <title>Textarea element</title>
-  </head>
-  <body>
-    <section id="overlay">
-      <img src="https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg" alt="Davie's Burgers Logo" id="logo">
-      <hr>
-      <form action="submission.html" method="POST">
-        <h1>Create a burger!</h1>
-					<section class="protein">
-          <label for="patty">What type of protein would you like?</label>
-    			<input type="text" name="patty" id="patty">
-        </section>
-        <hr>
-        <section class="patties">
-          <label for="amount">How many patties would you like?</label>
-          <input type="number" name="amount" id="amount">
-        </section>
-        <hr>
-        <section class="cooked">
-          <label for="doneness">How do you want your patty cooked</label>
-          <br>
-          <span>Rare</span>
-          <input type="range" name="doneness" id="doneness" value="3" min="1" max="5">
-          <span>Well-Done</span>
-        </section>
-        <hr>
-        <section class="toppings">
-          <span>What toppings would you like?</span>
-          <br>
-          <input type="checkbox" name="topping" id="lettuce" value="lettuce">
-          <label for="lettuce">Lettuce</label>
-          <input type="checkbox" name="topping" id="tomato" value="tomato">
-          <label for="tomato">Tomato</label>
-          <input type="checkbox" name="topping" id="onion" value="onion">
-          <label for="onion">Onion</label>
-        </section>
-        <hr>
-        <section class="cheesy">
-          <span>Would you like to add cheese?</span>
-          <br>
-          <input type="radio" name="cheese" id="yes" value="yes">
-          <label for="yes">Yes</label>
-          <input type="radio" name="cheese" id="no" value="yes">
-          <label for="no">No</label>
-        </section>
-        <hr>
-        <section class="bun-type">
-          <label for="bun">What type of bun would you like?</label>
-          <select name="bun" id="bun">
-            <option value="sesame">Sesame</option>
-            <option value="potatoe">Potato</option>
-            <option value="pretzel">Pretzel</option>
-          </select>
-        </section>
-        <hr>
-        <section class="sauce-selection">
-          <label for="sauce">What type of sauce would you like?</label>
-          <input list="sauces" id="sauce" name="sauce">
-          <datalist id="sauces">
-            <option value="ketchup"></option>
-            <option value="mayo"></option>
-            <option value="mustard"></option>
-          </datalist>
-        </section>
-        <hr>
-        <section class="extra-info">
-          <label for="extra">Anything else you want to add?</label>
-          <br>
-          <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
-        </section>
-        <hr>
 
-        <section class="submission">
-          <!--Add your code below-->
-          <input type="submit" value="Submit">
-        </section>
-        
-      </form>
-    </section>
-  </body>
-</html>
-[22:11, 7/4/2023] Joaquin Martinez: <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta charset="utf-8">
-    <title>Sign Up Page</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Antezana Store</title>
+    <link rel="stylesheet" href="estilos.css">
   </head>
   <body>
-    <section class="overlay">
-			<h1>Sign Up</h1>
-      <p>Create an account:</p>
-      <form action="submission.html" method="GET">
-        <label for="username">Username:</label>
-        <br>
-				<input id="username" name="username" type="text" required minlength="3" maxlength="15">
-        <br>
-        <label for="pw">Password:</label>
-        <br>
-        <!--Add the pattern attribute to the input below-->
-				<input id="pw" name="pw" type="password" required minlength="8" maxlength="15">
-        <br>
-        <input type="submit" value="Submit">
-      </form>
-    </section>
+    <header>
+      <nav>
+        <span>
+          <div id="antezana">ANTEZANA</div>
+          <ul>
+            <li><a href="#"><img class="navigation" src ="https://cdnb.20m.es/yaestaellistoquetodolosabe/files/2014/05/Por-qu%C3%A9-al-planeta-Tierra-tambi%C3%A9n-se-le-llama-%E2%80%98mundo%E2%80%99.jpg"</a></li>
+            <li><a href="perfil.html"><img class="navigation" src="data:image/png;base64,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"></a></li>
+            <li><a href="carrito.html"><img class="navigation " src="https://thumbs.dreamstime.com/b/icono-de-carro-compras-en-fondo-negro-ilustraci%C3%B3n-vectores-estilo-plano-170442802.jpg"></a></li>
+        </ul>
+        </span>
+      </nav>
+    </header>
+    <br>
+    <main>
+      <section>
+       
+      </section>
+      <div class="container">
+        <img class="stock" src="https://hawkstore.com.ar/wp-content/uploads/2023/03/3.png" alt="cuchillo_huntsman">
+        
+        <img class="stock" src="https://hawkstore.com.ar/wp-content/uploads/2023/03/330x192-6.png" alt="AK-47_ice_colaed">
+
+        <img class="stock" src="https://hawkstore.com.ar/wp-content/uploads/2022/11/330x192-17.png" alt="M4A4_decimator">
+
+        <img class="stock" src="https://static.wixstatic.com/media/eb7755_f4469bee7b8f412081b0a5b6cde29d62~mv2.png/v1/fill/w_195,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/eb7755_f4469bee7b8f412081b0a5b6cde29d62~mv2.png" alt="cuchillo_talon">
+        
+        <img class="stock" src="https://static.wixstatic.com/media/80c5f0_c24ecb858a224696bb54d3dc2e0e0bcc~mv2.png/v1/fill/w_195,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/80c5f0_c24ecb858a224696bb54d3dc2e0e0bcc~mv2.png" alt="AWP_sun_in_leo">
+
+        <img class="stock" src="https://static.wixstatic.com/media/80c5f0_088815c68b5d455eb54ea0d585def3f4~mv2.png/v1/fill/w_195,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/80c5f0_088815c68b5d455eb54ea0d585def3f4~mv2.png" alt="famas_condecoracion">
+
+        <img class="stock" src="https://static.wixstatic.com/media/80c5f0_109cffb5625a4fb0ad0a0620873a0f6b~mv2.png/v1/fill/w_195,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/80c5f0_109cffb5625a4fb0ad0a0620873a0f6b~mv2.png" alt="AWP_acheron">
+        
+        <img class="stock" src="https://static.wixstatic.com/media/eb7755_3a8f4680e27f4edb9d6cb00c9a7ac618~mv2.png/v1/fill/w_195,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/eb7755_3a8f4680e27f4edb9d6cb00c9a7ac618~mv2.png" alt="gloves">
+        
+        <img class="stock" src="https://static.wixstatic.com/media/eb7755_180b110f39374461ad9a6ab95beb5a8a~mv2.png/v1/fill/w_195,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/eb7755_180b110f39374461ad9a6ab95beb5a8a~mv2.png" alt="cuchillo_mariposa">
+        
+      
+      </div>
+    </main>
+    <footer>
+      <div class="footer-left">Derechos reservados © 2023</div>
+      <div class="footer-right">ANTEZANA STORE</div>
+    </footer>
+    
   </body>
 </html>

@@ -1,86 +1,85 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: auto;
-    background-color: #ffffff;
-    background-image: url(https://p4.wallpaperbetter.com/wallpaper/380/523/681/design-neon-abstract-light-design-hd-wallpaper-preview.jpg);
-    background-size: cover;
-    padding: 1%;
-  }
+  font-family: Arial, sans-serif;
+  margin: auto;
+  background-color: #ffffff;
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/380/523/681/design-neon-abstract-light-design-hd-wallpaper-preview.jpg);
+  background-size: cover;
+  padding: 1%;
+}
 
+
+header {
+  background-color: rgb(0, 0, 0);
+  color: #020202;
+  padding: 10px;
   
-  header {
-    background-color: rgb(0, 0, 0);
-    color: #020202;
-    padding: 10px;
-    
-  }
-  #antezana{
-    text-align: center;
-    color: #fff;
+}
+#antezana{
+  text-align: center;
+  color: #fff;
 
-  }
-  .stock {
-    border: 2px solid rgb(0, 0, 0);
-    padding: 10px;
-    width: 250px;
-    height: 200px;
-    margin: 2.7%;
-    background-image: url(https://images7.alphacoders.com/107/thumbbig-1075059.webp);
-    background-size: cover;
-    padding: 1%;
-  }
-  .navigation{
-    width: 35px;
-    height: 35px;
-  }
+}
+.stock {
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px;
+  width: 250px;
+  height: 200px;
+  margin: 2.7%;
+  background-image: url(https://images7.alphacoders.com/107/thumbbig-1075059.webp);
+  background-size: cover;
+  padding: 1%;
+}
+.navigation{
+  width: 35px;
+  height: 35px;
+  display: flex;
+}
 
-  nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: right;
-  }
-  
-  nav li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  nav li:last-child {
-    margin-right: 0;
-  }
-  
-  nav a {
-    color: #f4ebeb;
-    text-decoration: none;
-  }
-  
-  main {
-    max-width: 1000px;
-    margin: auto;
-    padding: 50px;
-    border: 2px solid black;
-    width: 1000px;
-    height: 1000px;
-    background-color: #080808;
-    /*
-    background-image: url(https://p4.wallpaperbetter.com/wallpaper/409/743/607/circle-web-design-artwork-digital-art-wallpaper-preview.jpg);
-    background-size: cover;
-    padding: 1%;*/
-  }
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
 
-  #right{
-    background-color: #333;
-   color: #fff;
-    padding: 10px;
-    text-align: right;
-  }
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
 
-  #left{
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: left;
-  }
+nav li:last-child {
+  margin-right: 0;
+}
 
+nav a {
+  color: #f4ebeb;
+  text-decoration: none;
+}
 
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px;
+  opacity: 1;
+  border: 2px solid black;
+  width: 1000px;
+  height: 1000px;
+  background-color: #080808;
+}
+
+footer {
+  background-color: #000000;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  text-align: left;
+  color:#ffffff;
+}
+
+.footer-right {
+  text-align: right;
+}
